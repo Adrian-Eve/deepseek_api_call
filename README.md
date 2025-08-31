@@ -40,23 +40,18 @@
 2.  进入项目目录
     ```bash
     cd deepseek_api_call
-    ``` 
-3. 下载所需第三方包 
-    ```bash
-    uv pip install openai
-    uv pip install dotenv
     ```
-
-4.  配置main.py文件中API
-    DEEPSEEK_API_KEY=你的API密钥
-    ```
+3. 在项目目录中创建 .env 文件并在其中添加以下以下内容以配置 API 密钥
+   ```bash
+   export DEEPSEEK_API_KEY="<YOUR_API_KEY>"
+   ```
 
 ## 💡 快速上手
 
 运行主程序，按提示选择模型、输出方式和系统角色，即可开始对话：
 
 ```bash
-python [main.py](http://_vscodecontentref_/0)
+uv run main.py # 这会自动安装所需依赖
 ````
 
 ## 🤝 贡献指南
