@@ -2,8 +2,8 @@
 
 <!-- 徽章 -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://badge.fury.io/js/your-package.svg)](https://badge.fury.io/js/your-package)
-
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 <!-- 项目简介 -->
 一个简单的命令行工具，调用 DeepSeek API 实现 AI 聊天对话，支持多模型选择与流式输出。
 
@@ -31,7 +31,6 @@
 
 确保你已经安装了以下环境：
 *   Python 3.13 
-*   pip
 
 **安装步骤**
 
@@ -42,10 +41,11 @@
 2.  进入项目目录
     ```bash
     cd deepseek_api_call
-    ```
-3.  安装依赖
+    ``` 
+3. 下载所需第三方包 
     ```bash
-    pip install -r requirements.txt
+    uv pip install openai
+    uv pip install dotenv
     ```
 
 4.  配置main.py文件中API
@@ -65,7 +65,7 @@ python [main.py](http://_vscodecontentref_/0)
 
 
 ## 📄 许可证
-本项目使用 MIT 许可证。有关详细信息，请参阅 LICENSE 文件。
+本项目使用 GPL3 许可证。有关详细信息，请参阅 LICENSE 文件。
 
 ## 🙏 致谢
 感谢 DeepSeek 提供的 API 服务。
