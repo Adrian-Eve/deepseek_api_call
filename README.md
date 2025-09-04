@@ -64,5 +64,3 @@ uv run main.py # 这会自动安装所需依赖
 ## 🙏 致谢
 感谢 DeepSeek 提供的 API 服务。
 感谢所有贡献者。
-
-由 Adrian-Eve 创建
